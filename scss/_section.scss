@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    .programa {
+        grid-area: programa;
+        background-color: #58C6B5;
+        height: 730px;
+        display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 100px 400px 1fr;
+            grid-template-areas:
+                "titProg"
+                "dias" 
+                "BotProg";
+        justify-items: center;
+    }
+    
+    .titProg {
+        grid-area: titProg;
+        padding-top: 40px;
+    }
+    
+    
+    .dias {
+        grid-area: dias;
+        align-items: start;
+        display: inline-flex;
+        list-style: none;
+        padding-top: 30px;
+    }
+    
+    .dias li {
+        padding-left: 15px;
+    }
+    
+    .dias li img {
+        padding-bottom: 20px;
+    }
+    
+    .dias li img:hover {
+        opacity: 80%;
+    }
+    
+    .BotProg {
+        grid-area: BotProg;
+        padding-top: 20px;
+    }
+    
+    .BotProg a button {
+        margin-right: 50px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 10px;
+    }
+    
+    .BotProg a button:hover {
+        text-transform: uppercase;
+        font-weight: 300;
+        background-color: rgb(230, 52, 52);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 10px;
+    }
+    
+    .programa li:hover {
+        color: black;
+    }
+    
+    
+    .slider {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .UltimaEdicion {
+        grid-area: UltimaEdicion;
+        padding-bottom: 70px;
+        padding-top: 70px;
+        background-color: #ED695F;
+        height: 800px;
+        width: 100%;
+    }
+    
+    .CatalogosDescargables {
+        grid-area: CatalogosDescargables;
+        background-color: #F6D244;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .CatalogosDescargables ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .CatalogosDescargables li:hover {
+        color: black;
+    }
+    
+    
+    .Inscribite {
+        grid-area: Inscribite;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #58C6B5;
+        color: black;
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+    }
+    
+    .caja1 p {
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    .Inscribite a button {
+        margin-right: 50px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 10px;
+    }
+    
+    .Inscribite a button:hover {
+        text-transform: uppercase;
+        font-weight: 300;
+        background-color: rgb(230, 52, 52);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 10px;
+    }
+    
+    .FormularioDeConsulta form {
+        width: 600px;
+    }
+    
+    .FormularioDeConsulta {
+        grid-area: FormularioDeConsulta;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        background-color: #EDECFA;
+    }
+    
+    .FormularioIMG {
+        display: inline-block;
+        margin-left: 10%;
+        margin-right: 40px
+    }
+}
